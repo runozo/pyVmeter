@@ -1,6 +1,6 @@
 pyVmeter
 ========
 
-It's a Vmeter (audio) written in python.
+It's a Vmeter (audio) written in Python.
 
 Derived from:

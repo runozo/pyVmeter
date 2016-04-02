@@ -58,11 +58,14 @@ def loop(screen):
             # all samples in a fragment.
             level = audioop.max(data, 2)
             screen.clear()
-            screen.addstr(0, level // 200 - 2, str(level))
-            screen.addstr(1, 0, level // 200 * '*')
+            size = level // 200
+            if size < 0:
+                size = 0
+            screen.addstr(0, size, str(level))
+            screen.addstr(1, 0, size * '*')
             screen.refresh()
 
-        time.sleep(.01)
+        time.sleep(.03)
 
 
 if __name__ == '__main__':

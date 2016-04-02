@@ -1,6 +1,9 @@
 pyVmeter
 ========
 
-It's a Vmeter (audio) written in Python.
+It's an ASCII audio v-meter written in Python.
 
-Derived from:
+# Usage
+
+Just turn your mic on and watch your term drawing level bars :)
+

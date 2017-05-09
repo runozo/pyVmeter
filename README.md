@@ -5,11 +5,14 @@ It's an ASCII audio v-meter written in Python.
 
 # Install
 
-On Ubuntu like distros you may need to "sudo apt-get install libasound2-dev" to install pyalsaaudio.
+On Ubuntu like distros you may need to ``sudo apt-get install libasound2-dev`` to install pyalsaaudio.
 
-Then "pip install -r requirements.txt".
+Then ``pip install -r requirements.txt``
 
 # Usage
 
-Just turn your mic on and watch your term drawing a level bar :)
+
+``python vmeter.py``
+
+Then, just turn your mic on and watch your term drawing a level bar :)
 
